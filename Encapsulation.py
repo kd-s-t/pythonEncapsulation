@@ -1,26 +1,21 @@
-# In an object oriented python program, you can restrict access to methods and variables. 
-# This can prevent the data from being modified by accident and is known as encapsulation.   
-# Let’s start with an example.
-
 class Name:
-	 
 	def setFirstName(self, firstname):
-		self.__firstname = firstname 
+		self.firstname = firstname 
 
 	def setMiddleName(self, middletname):
-		self.__middletname = middletname 
+		self.middletname = middletname 
 
 	def setLastName(self, lastname):
-		self.__lastname = lastname 
+		self.lastname = lastname 
 
 	def getFirstName(self):
-		return self.__firstname
+		return self.firstname
 
 	def getMiddleName(self):
-		return self.__middletname
+		return self.middletname
 
 	def getLastName(self):
-		return self.__lastname
+		return self.lastname
 	 
 # Set variables
 name = Name()
