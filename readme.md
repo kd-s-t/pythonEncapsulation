@@ -1,5 +1,5 @@
 # Python Encapsulation  
-### python v3.7.3 
+### python v3.7.3
 
 # Operations  
 
@@ -7,8 +7,13 @@
 * Get first name, middle name and last name  
 * Display full name  
 
-  
+
 # Usage  
 ```
-python Encapsulation.py  
+python index.py  
 ```
+
+# Usage for unit testing  
+```  
+python -m unittest tests/test_encapsulation.py  
+```  
